@@ -1,0 +1,11 @@
+{
+    "name": "kumako.dog",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node app.js",
+        "start_pm2": "sudo pm2 start app.js --name kumako.dog"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
