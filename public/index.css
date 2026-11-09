@@ -4,7 +4,10 @@ html {
 }
 
 body {
-    margin: 4rem;
+    box-sizing: border-box;
+    min-height: 100%;
+    margin: 0;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,4 +65,13 @@ body {
 .social-link img {
     width: auto;
     height: 85%;
+}
+
+.qr {
+    margin-top: auto;
+}
+
+.qr img {
+    width: 100px;
+    height: auto;
 }
