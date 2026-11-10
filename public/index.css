@@ -39,10 +39,10 @@ body {
 }
 
 .social-link {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%; 
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    justify-content: space-around;
     
     font-family: serif;
     font-size: 2rem;
@@ -63,8 +63,9 @@ body {
 }
 
 .social-link img {
+    justify-self: center;
     width: auto;
-    height: 85%;
+    height: 4rem;
 }
 
 .qr {
@@ -73,6 +74,7 @@ body {
 
 .qr img {
     display: block;
-    width: 100px;
+    width: 60px;
     height: auto;
+    box-shadow: 2px 2px 4px black;
 }
